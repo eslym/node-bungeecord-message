@@ -137,11 +137,11 @@ proto.addType('bungee:response', [
                                     type: "u16"
                                 }
                             ]
-                        ],
-                        default: [
-                            "container", []
                         ]
-                    }
+                    },
+                    default: [
+                        "container", []
+                    ]
                 }
             ]
         }
@@ -267,11 +267,11 @@ proto.addType("bungee:request", [
                                     type: "bungee:string"
                                 }
                             ]
-                        ],
-                        default: [
-                            "container", []
                         ]
-                    }
+                    },
+                    default: [
+                        "container", []
+                    ]
                 }
             ]
         }
