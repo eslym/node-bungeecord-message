@@ -1,6 +1,6 @@
 {
   "name": "bungeecord-message",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BungeeCord plugin message type definitions and handler",
   "main": "index.js",
   "scripts": {

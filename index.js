@@ -285,7 +285,7 @@ module.exports = function(client){
     client.registerChannel('bungeecord:main');
     client.on('bungeecord:main', function(buffer){
         let data = proto.parsePacketBuffer("bungee:response", buffer).data;
-        client.emit('bungeecord:'+data.action, data, raw);
+        client.emit('bungeecord:'+data.action, data, buffer);
     });
     client.on('custom_payload', function(){});
     return client.bungeeHandler = {
